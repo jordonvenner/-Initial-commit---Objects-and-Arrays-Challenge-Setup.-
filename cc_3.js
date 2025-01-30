@@ -48,3 +48,33 @@ employee.promotionEligible = employee.performanceScore > 95; // True if employee
 //Step 4
 console.log("Update Employee Data:", employee);
 
+//Task 4: Customer Feedback Records Scenario: Feedback Management You are collecting customer feedback data.
+
+//Step 1
+let feedback = [
+    {
+        customerName: "Jane Wind",
+        feedbackText: "Amazing product! Really life changing stuff right here.",
+        rating: 5
+    },
+    {
+        customerName: "Lane Cash",
+        feedbackText: "Quality was nice, but shipping was delayed.",
+        rating: 3
+    },
+    {
+        customerName: "Jonny Spring",
+        feedbackText: "Product did not do what it was supposed to! Very disappointed.",
+        rating: 1
+    }
+];
+
+//Step 2
+feedback.push({
+    customerName: "Emma Wilson",
+    feedbackText: "Product exceeded expectation, will defiently buy for friends and family.",
+    rating: 5
+});
+
+//Step 3
+console.log("Customer Feedback List:", feedback);
