@@ -29,3 +29,22 @@ console.log("Update orders:", orders);
 console.log("Total Order Count:", totalOrders);
 
 
+//Task 3: Employee Performance Tracking Scenario: HR System You are tracking employee performance data.
+
+//Step 1
+let employee = {
+    name: "Alex Strong",
+    role: "Project Manager",
+    performanceScore: 88,
+    isActive: true
+};
+
+//Step 2
+employee.performance = 97;
+
+//Step 3
+employee.promotionEligible = employee.performanceScore > 95; // True if employee score > 90
+
+//Step 4
+console.log("Update Employee Data:", employee);
+
