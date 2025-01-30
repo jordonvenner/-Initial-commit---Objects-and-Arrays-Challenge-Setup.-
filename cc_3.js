@@ -78,3 +78,22 @@ feedback.push({
 
 //Step 3
 console.log("Customer Feedback List:", feedback);
+
+
+//Task 5: Inventory Management System Scenario: Stock Analysis You are developing a system to track inventory details.
+
+//Step 1
+let inventory ={
+    itemName: "Wireless Remote",
+    stockCount: 100,
+    price: 50
+//Step 2
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    }
+};
+
+
+//Step 3
+console.log("Inventory Details:", inventory);
+console.log("Total Inventory Value:", inventory.calculateTotalValue().toFixed(2));
